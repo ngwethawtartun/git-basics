@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+nav {
+  background-color: #a78bfa;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+}
+h1 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 50px;
+  position: absolute;
+  width: 147px;
+  height: 24px;
+  top: 36px;
+  left: 200px;
+}
+.container {
+  position: absolute;
+  width: 927px;
+  height: 500px;
+  left: 200px;
+  top: 100px;
+}
+.container h2 {
+  font-family: "Montserrat";
+  font-size: 20px;
+
+  padding: 20px 0;
+}
+.container img {
+  width: 927px;
+  height: 400px;
+}
+.container p {
+  line-height: 24px;
+  font-size: 16px;
+  font-style: italic;
+}
+.container-one {
+  position: absolute;
+  width: 100%;
+  top: 630px;
+  height: 200px;
+  background-color: #ffe5d9;
+}
+.section {
+  position: absolute;
+  width: 927px;
+  left: 200px;
+}
+.section h2 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  padding: 20px 0;
+}
+.section p {
+  line-height: 24px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.button {
+  padding: 20px 0;
+}
+
+.btn-one {
+  padding: 5px 30px 5px 30px;
+  background-color: #ff6820;
+}
+.btn-one:active {
+  background-color: rgba(244, 138, 92, 0.802);
+}
+.btn-two {
+  padding: 5px 30px 5px 30px;
+  background-color: #ffffff;
+  margin-left: 50px;
+}
+.btn-two:active{
+  background-color: rgb(138, 136, 136);
+
+}
+.footer {
+  text-align: center;
+  padding: 30px;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: 0;
+  top: 830px;
+  background-color: #a78bfa;
+}
+.fooot:visited{
+  background-color:hotpink;
+}
+.foot-one {
+  margin-right: 30px;
+}
+.foot-two {
+  margin-left: 10px;
+}
